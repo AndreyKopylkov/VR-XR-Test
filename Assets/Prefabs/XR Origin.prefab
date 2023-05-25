@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1788716812152658226}
   - component: {fileID: 1788716812152658227}
   - component: {fileID: 1788716812152658228}
+  - component: {fileID: 1510395424}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -578,6 +579,19 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
+--- !u!135 &1510395424
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788716812152658230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1788716812219361402
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +1000,7 @@ GameObject:
   - component: {fileID: 1788716813418756904}
   - component: {fileID: 1788716813418756905}
   - component: {fileID: 296872971}
+  - component: {fileID: 296872972}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -1576,6 +1591,19 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!135 &296872972
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788716813418756907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4920562196981497337
 GameObject:
   m_ObjectHideFlags: 0

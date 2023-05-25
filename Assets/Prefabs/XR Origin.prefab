@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd940839d0b47d2934adaf891eb0d20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _xrInteractorLineVisual: {fileID: 0}
+  _xrInteractorLineVisual: {fileID: 1788716813418756904}
   _activateInput:
     m_UseReference: 1
     m_Action:

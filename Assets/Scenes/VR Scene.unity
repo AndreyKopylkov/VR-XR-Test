@@ -2155,10 +2155,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1788716812152658225, guid: a0dbee8d327e33748ae1bd03831d40dc, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 2053646269}
     - target: {fileID: 1788716812219361400, guid: a0dbee8d327e33748ae1bd03831d40dc, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2207,10 +2203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin
       objectReference: {fileID: 0}
-    - target: {fileID: 1788716813418756902, guid: a0dbee8d327e33748ae1bd03831d40dc, type: 3}
-      propertyPath: m_InteractionManager
+    - target: {fileID: 4689101302487837646, guid: a0dbee8d327e33748ae1bd03831d40dc, type: 3}
+      propertyPath: m_Reticle
       value: 
-      objectReference: {fileID: 2053646269}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0dbee8d327e33748ae1bd03831d40dc, type: 3}
 --- !u!1001 &7117700467956524332

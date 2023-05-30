@@ -12,13 +12,6 @@ public class ActivateTeleportationRay : MonoBehaviour
     private void Update()
     {
         _xrInteractorLineVisual.gameObject.SetActive(_cancel.action.ReadValue<float>() == 0
-                                                     && _activateInput.action.ReadValue<float>() > 0.1f);
-
-        _xrInteractorLineVisual.transform.position = transform.position;
-    }
-
-    private void LateUpdate()
-    {
-        _xrInteractorLineVisual.transform.position = transform.position;
+                                                     && _activateInput.action.ReadValue<float>() > 0.1f); 
     }
 }
